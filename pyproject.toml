@@ -1,0 +1,32 @@
+[project]
+name = "planilla"
+version = "0.1.0"
+description = "Calculo de planilla mensual. Proyecto base de la Hoja de Trabajo 3."
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+planilla = "planilla.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/planilla"]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+    "pytest-cov>=6.0",
+    "ruff>=0.8",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F"]
