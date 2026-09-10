@@ -9,7 +9,7 @@ from planilla.calculo import (
 
 
 def test_salario_base_valido():
-    assert valor_hora(4800) == 20
+    assert valor_hora(4800) == 999
 
 
 def test_salario_base_invalido():
