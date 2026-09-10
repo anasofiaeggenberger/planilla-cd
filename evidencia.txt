@@ -2,9 +2,9 @@ URL del fork:
 https://github.com/anasofiaeggenberger/planilla-cd
 
 RUN ROJO
-SHA: 48dd5f7
+SHA: 48dd5f7b0eb2dcfaded1e7dcff685a4ccdbc7ea6
 URL: https://github.com/anasofiaeggenberger/planilla-cd/actions/runs/34503506852 
 
 RUN VERDE
-SHA: 36f6a47
+SHA: 36f6a47989d0ae903976e07f18e071dd753e3020
 URL: https://github.com/anasofiaeggenberger/planilla-cd/actions/runs/34503775471
